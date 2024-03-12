@@ -1,0 +1,17 @@
+
+#spring mvc view resolver
+spring:
+ messsages:
+  basename: /com/nt/commons/app
+ mvc:
+  view:
+   prefix: /WEB-INF/pages/
+   suffix: .jsp
+
+#server port number
+server:
+ port: 4128
+ 
+ #context-path
+ servlet:
+  context-path: /internationalization2

@@ -1,0 +1,15 @@
+
+#spring mvc view resolver
+spring:
+ mvc:
+  view:
+   prefix: /WEB-INF/pages/
+   suffix: .jsp
+
+#server port number
+server:
+ port: 4114
+ 
+ #context-path
+ servlet:
+  context-path: /internationalization

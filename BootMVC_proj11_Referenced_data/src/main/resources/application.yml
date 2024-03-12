@@ -1,0 +1,17 @@
+#View resolver
+spring:
+ mvc: 
+  view:
+   prefix: /WEB-INF/pages/
+   suffix: .jsp
+#oracle properties
+ datasource:
+  driver-class-name: oracle.jdbc.driver.OracleDriver
+  url: jdbc:oracle:thin:@localhost:1521:orcl
+  username: siva
+  password: velpula
+  
+server:
+ port: 4111
+ servlet:
+  context-path: /shop

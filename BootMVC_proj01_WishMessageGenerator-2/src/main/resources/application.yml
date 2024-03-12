@@ -1,0 +1,11 @@
+spring:
+ mvc:
+  view:
+   prefix: /WEB-INF/pages/
+   suffix: .jsp
+   
+server:
+ port: 4073
+ 
+ servlet:
+  context-path: /wishMessage

@@ -1,0 +1,35 @@
+
+ 
+#embededd server port number
+server:
+ port: 4107
+#servelet context-path 
+ servlet:
+  context-path: /doctor_crud
+  
+#Oracle data base properties
+#view resolver components
+spring:
+ mvc:
+  view:
+   prefix: /WEB-INF/pages/
+   suffix: .jsp
+ datasource:
+  driver-class-name: oracle.jdbc.driver.OracleDriver
+  url: jdbc:oracle:thin:@localhost:1521:orcl
+  username: siva
+  password: velpula
+  hikari:
+   minimum-idle: 10
+   maximum-pool-size: 1000
+   idle-timeout: 60000
+
+#hibernate properties
+
+ jpa:
+  database-platform: org.hibernate.dialect.OracleDialect
+  show-sql: true
+  hibernate:
+   ddl-auto: update
+   
+  

@@ -1,0 +1,15 @@
+#view resolver
+spring:
+ mvc:
+  view:
+   prefix: /WEB-INF/pages/
+   suffix: .jsp
+   
+#server port
+server:
+ port: 4106
+
+#server servlet context path
+ servlet: 
+  context-path: /requestParam
+  

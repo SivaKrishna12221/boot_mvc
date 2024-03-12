@@ -1,0 +1,15 @@
+#ViewResolver 
+spring:
+ mvc:
+  view:
+   prefix: /WEB-INF/pages/
+   suffix: .jsp
+   
+   
+#server port number
+server:
+ port: 4105
+ 
+ #servlet context-path
+ servlet: 
+  context-path: /mvcDataBinding

@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Shining software solution</title>
+ <style>
+        h1{
+            color:#ece7f0;
+        }
+        body{
+            background-image: url('company image.png');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        @keyframes left-right {
+            from{left:1px;right:1px}
+            to{left:1000px;right:1px}
+        }
+       .scroll1{
+        position:relative;
+            animation-name:left-right ;
+            animation-duration:20s;
+            animation-iteration-count: 10;
+            animation-delay:1s;
+       }
+    </style>
+</head>
+<body>
+    <h1 class="scroll1">Welcome to Shining software solution</h1>
+     <h2 style="text-align: center;">Click here to Get the <a href="employeeInfo">employee</a> details</h2>
+</body>
+</html>

@@ -1,0 +1,21 @@
+#View resolver
+spring:
+ mvc: 
+  view:
+   prefix: /WEB-INF/pages/
+   suffix: .jsp
+#oracle properties
+ datasource:
+  driver-class-name: oracle.jdbc.driver.OracleDriver
+  url: jdbc:oracle:thin:@localhost:1521:orcl
+  username: siva
+  password: velpula
+  
+server:
+ port: 4112
+ servlet:
+  context-path: /dynamic_data
+
+#country and states
+India: j&k,pnj,delhi,haryana,maharastra,sikkim,west bengal,chattisgarh,kerala,tamilnadu,karnataka,Telangana,Andhra pradesh,odisha
+United States: Alabama,Alaska,Arizona,Arkansas,California,Colorado,Connecticut,Delaware,Florida,Georgia,Hawaii,Kentucky,Louisiana

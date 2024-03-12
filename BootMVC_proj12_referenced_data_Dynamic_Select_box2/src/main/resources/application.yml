@@ -1,0 +1,27 @@
+#View resolver
+spring:
+ mvc: 
+  view:
+   prefix: /WEB-INF/pages/
+   suffix: .jsp
+#oracle properties
+ datasource:
+  driver-class-name: oracle.jdbc.driver.OracleDriver
+  url: jdbc:oracle:thin:@localhost:1521:orcl
+  username: siva
+  password: velpula
+  
+server:
+ port: 4126
+ servlet:
+  context-path: /dynamic_data2
+  
+India: j&k,pnj,delhi,haryana,maharastra,sikkim,west bengal,chattisgarh,kerala,tamilnadu,karnataka,Telangana,Andhra pradesh,odisha
+United States: Alabama,Alaska,Arizona,Arkansas,California,Colorado,Connecticut,Delaware,Florida,Georgia,Hawaii,Kentucky,Louisiana
+
+Andhra pradesh: Srikakulam, Vizianagaram, Parvathipuram Manyam, Alluri Sitharama Raju, Visakhapatnam , Anakapalli, Kakinada, Dr. B. R. Ambedkar Konaseema, East Godavari, West Godavari, Eluru, Krishna, NTR, Guntur, Palnadu, Bapatla, Prakasam , Sri Potti Sriramulu Nellore , Kurnool, Nandyal, Anantapuramu, Sri Sathya Sai, YSR, Annamayya, Tirupati ,Chittoor
+Telangana: Adilabad,Komaram Bheem AsifabadB,Kothagudem,Hanamkonda,Hyderabad,Jagitial,Jangaon,Jayashankar Bhupalpally,J.GadwalKamareddyKarimnagar,Khammam,Mahabubabad,Mahabub Nagar,Mancherial,MedakMedchal,Malkajgiri,Mulugu,Nagarkurnool,Nalgonda,Narayanapet,Nirmal,Nizamabad,PeddapalliRajanna, SircillaRanga Reddy,Sangareddy,Siddipet,Suryapet,Vikarabad,Wanaparthy,Warangal,Y.Bhuvanagiri
+
+YSR: pulivendula,simhadripuram,mallela,muddanur,jammalmadugu,proddutur,chapadu,mydhukur,duvvur,kajipeta,kadapa,siddavatam,ontimitta,ck dinne,velatur,pendlimarri,vempalli,kadiri,vemula,vn palli,yerraguntla,nalingaipalli,kamalapuram,vallur,chakrayapeta,b mattam,rajupalem,kalasapadu,mylavaram
+
+

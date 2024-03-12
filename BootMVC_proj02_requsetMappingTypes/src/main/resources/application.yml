@@ -1,0 +1,11 @@
+spring:
+ mvc:
+  view:
+   prefix: /WEB-INF/pages/
+   suffix: .jsp
+   
+server:
+ port: 4084
+ 
+ servlet:
+  context-path: /requestPath

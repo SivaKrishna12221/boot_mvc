@@ -1,0 +1,31 @@
+
+# view resolver 
+spring:
+# mvc: 
+#  view: 
+#   prefix: /WEB-INF/pages/
+#   suffix: .jsp
+#jdbc properties
+ datasource:
+  driver-class-name: oracle.jdbc.driver.OracleDriver
+  url: jdbc:oracle:thin:@localhost:1521:orcl
+  username: siva
+  password: velpula
+#hibernate properties
+ jpa:
+  database-platform: org.hibernate.dialect.OracleDialect
+  show-sql: true
+  hibernate:
+   ddl-auto: update
+  
+#server port
+server:
+ port: 4129
+
+#servlet context
+ servlet:
+  context-path: /file_uploading_downloading2
+  
+store:  
+ data: D:mvc_download_practice/job seekar
+

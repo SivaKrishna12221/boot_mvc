@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">  
+<tiles-definitions>
+<definition name="baseDef" template="/WEB-INF/pages/circular_layout.jsp">
+  <put-attribute name="top-left-adv" value=""/>
+  <put-attribute name="header" value="/WEB-INF/pages/heading.jsp"/>
+  <put-attribute name="top-right-adv" value=""/>
+  <put-attribute name="menu" value="/WEB-INF/pages/menu.jsp"/>
+  <put-attribute name="body" value=""/>
+  <put-attribute name="right-adv" value=""/>
+  <put-attribute name="bottom-left-adv" value=""/>
+  <put-attribute name="footer" value="/WEB-INF/pages/footer.jsp"/>
+  <put-attribute name="bottom-right-adv" value=""/>
+</definition>
+<definition name="homeDef" extends="baseDef">
+  <put-attribute name="body" value="/WEB-INF/pages/welcome_nit.jsp"/>
+</definition>
+<definition name="doctorDef" extends="baseDef">
+ <put-attribute name="body" value="/WEB-INF/pages/doctors_report.jsp"/>
+</definition>
+</tiles-definitions>

@@ -1,0 +1,26 @@
+#view resolver 
+spring:
+ mvc:
+  view:
+   prefix: /WEB-INF/pages/
+   suffix: .jsp
+ datasource:
+  driver-class-name: oracle.jdbc.driver.OracleDriver
+  url: jdbc:oracle:thin:@localhost:1521:orcl
+  username: siva
+  password: velpula
+
+#Cofigure properties file
+ messages:
+  basename: com/nt/commons/validation
+   
+#server port Number
+server:
+ port: 4108
+#context path
+ servlet:
+  context-path: /software_solution
+
+
+  
+  

@@ -1,0 +1,37 @@
+#view resolver components
+spring:
+ mvc:
+  view:
+   prefix: /WEB-INF/pages/
+   suffix: .jsp
+ datasource:
+  driver-class-name: oracle.jdbc.driver.OracleDriver
+  url: jdbc:oracle:thin:@localhost:1521:orcl
+  username: siva
+  password: velpula
+#validation props
+ messages:
+  basename: com/nt/commons/validation
+ #hibernate properties
+ jpa:
+  database-platform: org.hibernate.dialect.OracleDialect
+  show-sql: true
+  hibernate:
+   ddl-auto: update
+   
+  
+#server port numebr
+server: 
+ port: 4110
+#Context-path
+ servlet:
+  context-path: /college
+  
+#Type mismatch proprs
+#typeMismatch:
+# age: Age must be number
+# fees: fees must be number
+#
+#stud:
+# course:
+#  restriction: stud course must not be Oracle and reactJs
